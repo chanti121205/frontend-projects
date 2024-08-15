@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    color: rgb(193, 194, 253);
+}
+nav{
+    width: 100%;
+    background: url(background.png);
+    background-position: center;
+    background-size: contain;;
+    height: 100vh;
+    position: relative;
+    font-family: "Grey Qo", cursive;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .design{
+    width: 100px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -2%;
+    border-radius: 50%;
+    border: hidden;
+}
+ul{
+    margin-top: -3%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 18px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(219, 217, 241);
+    margin-top: -4%;
+    transition: .6s ease;
+}
+ul li a:hover{
+    color: rgb(144, 73, 238);
+}
+.info{
+    margin-left: 6%;
+    margin-top: 5%
+}
+.info h1{
+    font-size: 70px;
+    color: rgb(241, 232, 255)
+}
+.info h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+.info span{
+    color:rgb(122, 117, 252)
+}
+.info a{
+    text-decoration: none;
+    color: rgb(251, 240, 255);
+    background:rgb(16, 14, 65);
+    margin: 24px 0;
+    padding: 9px 17px;
+    border-radius: 11px;
+    display: inline-block;
+}
+.info a:hover{
+    background:rgb(79, 73, 238);
+}
+.image{
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 130%;
+    left: 30%;
+    transform: translate(-30%);
+    bottom: 0; 
+    transition: left 2s ease;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.image:hover .girl{
+    left: 50%;
+}
+.social-media i{
+    margin-left: 6%;
+    margin-right: -50px;
+    transition: .5s ease;
+    color:rgb(16, 14, 65);
+}
+.social-media i:hover{
+    color:rgb(79, 73, 238);
+}
