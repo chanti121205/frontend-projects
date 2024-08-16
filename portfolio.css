@@ -5,11 +5,11 @@
 
 }
 body{
-    color: rgb(193, 194, 253);
+    color: rgb(31, 12, 44);
 }
 nav{
     width: 100%;
-    background: url(background.png);
+    background: rgb(244, 234, 255);
     background-position: center;
     background-size: contain;;
     height: 100vh;
@@ -25,10 +25,10 @@ nav{
     justify-content: space-between;
 }
 .navbar .design{
-    width: 100px;
+    width: 50px;
     cursor: pointer;
-    margin-top: -1%;
-    margin-left: -2%;
+    margin-top: -0.5%;
+    margin-left: -3%;
     border-radius: 50%;
     border: hidden;
 }
@@ -44,7 +44,7 @@ ul li a{
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(219, 217, 241);
+    color: rgb(83, 24, 95);
     margin-top: -4%;
     transition: .6s ease;
 }
@@ -57,7 +57,7 @@ ul li a:hover{
 }
 .info h1{
     font-size: 70px;
-    color: rgb(241, 232, 255)
+    color: rgb(85, 39, 160)
 }
 .info h3{
     font-size: 20px;
@@ -65,11 +65,11 @@ ul li a:hover{
     line-height: 22px;
 }
 .info span{
-    color:rgb(122, 117, 252)
+    color:rgb(24, 22, 77)
 }
 .info a{
     text-decoration: none;
-    color: rgb(251, 240, 255);
+    color: rgb(253, 248, 255);
     background:rgb(16, 14, 65);
     margin: 24px 0;
     padding: 9px 17px;
